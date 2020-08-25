@@ -1,0 +1,104 @@
+/* @import "../wuBaseWxss/0.wxss"; */
+
+/* .faMarkTip {
+    position: relative;
+} */
+.picker{font-size:28rpx;padding-right:20rpx}
+.markTip {
+    position: fixed;
+    left: 0;
+    background: rgba(255,255,255,0.9);
+    z-index: 23;
+    padding: 8rpx;
+}
+
+.markTipText {
+    padding: 5rpx;
+    margin-left: 22rpx;
+}
+
+.markTip .markTipTx {
+    width: 20rpx;
+    height: 20rpx;
+    display: inline-block;
+    float: left;
+    margin: 8rpx;
+}
+
+.backHome {
+    text-align: center;
+    padding: 10rpx;
+}
+
+.backHome:first-child {
+    padding-bottom: 0;
+}
+
+.backHome:last-child {
+    padding-top: 0;
+}
+
+.back-home {
+    bottom: 226rpx!important;
+}
+
+.house-type {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 80rpx;
+    overflow: hidden;
+    background-color: rgba(255,255,255,0.9);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    z-index: 24;  
+}
+
+.house-type .house-type-list {
+    display: flex;
+    flex-direction: row;
+    height: 80rpx;
+    line-height: 80rpx;
+    align-items: center;
+}
+
+.house-type .house-type-list .house-type-text {
+    margin-right: 15rpx;
+}
+
+.black-1a {
+    color: #1a1a1a;
+}
+
+.getLocation {
+    position: fixed;
+    bottom: 70rpx;
+    left: 40rpx;
+    width: 74rpx;
+    height: 74rpx;
+    box-shadow: 0 0 10rpx 0 rgba(0,0,0,0.3);
+    border-radius: 8rpx;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.getLocation .border {
+    width: 40rpx;
+    height: 40rpx;
+    border-radius: 100%;
+    border: 2px solid #3772cc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.getLocation .point {
+    width: 24rpx;
+    height: 24rpx;
+    border-radius: 100%;
+}
