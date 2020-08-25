@@ -6,8 +6,7 @@ Page({
     scale: 14,
     shoumaiType: 1,
     area: '',
-    // url: 'http://192.168.1.82:9000/api/',
-    url: 'https://xq.dyartedu.com:9000/api/',
+    url: 'https://xxx/api/',
     markers: [],
     controls: [{
       id: 1,
@@ -22,7 +21,7 @@ Page({
     }],
     cq: 0,
     cz: 0,
-    array: ['全部类型', '预售', '在售', '已清盘'],
+    array: ['全部类型'],
     areaName: ['全部地区'],
     date: '2020-01',
     comments: [],
